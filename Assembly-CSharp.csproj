@@ -45,6 +45,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FPBasic\Scripts\DoorAnimator.cs" />
+     <Compile Include="Assets\FPBasic\Scripts\DoorOpener.cs" />
      <Compile Include="Assets\First Person Drifter Controller\Scripts\FirstPersonDrifter.cs" />
      <Compile Include="Assets\First Person Drifter Controller\Scripts\LockMouse.cs" />
      <Compile Include="Assets\First Person Drifter Controller\Scripts\MouseLook.cs" />
