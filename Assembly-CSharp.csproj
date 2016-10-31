@@ -38,15 +38,18 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity 5/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+      <HintPath>/Applications/Unity 5/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FPBasic\Scripts\CoinPickup.cs" />
      <Compile Include="Assets\FPBasic\Scripts\DoorAnimator.cs" />
      <Compile Include="Assets\FPBasic\Scripts\DoorOpener.cs" />
+     <Compile Include="Assets\FPBasic\Scripts\HandAttack.cs" />
+     <Compile Include="Assets\FPBasic\Scripts\HandFire.cs" />
      <Compile Include="Assets\First Person Drifter Controller\Scripts\FirstPersonDrifter.cs" />
      <Compile Include="Assets\First Person Drifter Controller\Scripts\LockMouse.cs" />
      <Compile Include="Assets\First Person Drifter Controller\Scripts\MouseLook.cs" />
@@ -58,10 +61,10 @@
      <Compile Include="Assets\First Person Drifter Controller\Scripts\Utils\CameraFade.cs" />
      <None Include="Assets\First Person Drifter Controller\info.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Applications/Unity 5/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>/Applications/Unity 5/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
